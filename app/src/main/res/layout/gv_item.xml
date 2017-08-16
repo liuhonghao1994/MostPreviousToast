@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_item">
+    <ImageView
+        android:id="@+id/iv_item"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/default_head_man"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_item"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:text="教师"
+        android:textSize="30sp"/>
+</LinearLayout>
